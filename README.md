@@ -1,4 +1,4 @@
-### Milton
+# Milton
 
 ## Milton is simple, responsive, single-column CSS framework.
 
