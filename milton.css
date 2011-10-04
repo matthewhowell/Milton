@@ -58,7 +58,7 @@
     width: 630px;
   }
   
-  header, footer, article, .site-header
+  header, footer, article
   {
     width: 610px;
   }
@@ -80,7 +80,7 @@
     width: 470px;
   }
   
-  header, footer, article, .site-header
+  header, footer, article
   {
     width: 450px;
   }
@@ -102,7 +102,7 @@
     width: 310px;
   }
   
-  header, footer, article, .site-header
+  header, footer, article
   {
     width: 290px;
   }
