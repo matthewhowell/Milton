@@ -1,0 +1,110 @@
+/*
+------------------------------------------------------------------------
+  The default styles for the page "target" the iPad in portrait mode, 
+  which has a width of 768px and any larger display, including the iPad
+  in landscape (1024px width), and the iPhone 4 in landscape
+  (960px width).
+  - iPad, iPad 2, iPhone 4 (landscape)
+  - Any desktop / laptop with a resolution > 640 x 480
+------------------------------------------------------------------------
+*/
+  
+  .container
+  {
+    width: 748px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;  
+  }
+  
+  header
+  {
+    width: 728px;
+    padding: 0 10px;
+  }
+  
+  footer
+  {
+    width: 728px;
+    padding: 0 10px;
+  }
+	
+	article
+	{
+    width: 728px;
+    padding: 0 10px;
+    margin: 0 0 20px 0;
+	  display: block;
+	  text-align: left; 
+	}
+	
+	article header, article footer
+	{
+	  padding: 0;
+	}
+
+
+/*
+------------------------------------------------------------------------
+  This media query targets iPhone 4 retina displays in portrait mode
+  (640px width).
+  - iPhone 4
+------------------------------------------------------------------------
+*/
+@media only screen and (max-width: 640px), only screen and (max-device-width: 640px) {
+  
+  .container
+  {
+    width: 630px;
+  }
+  
+  header, footer, article, .site-header
+  {
+    width: 610px;
+  }
+    
+}
+
+
+/*
+------------------------------------------------------------------------
+  This media query targets older iPhones in portrait and any other
+  device with a width less 480px.
+  - iPhone EDGE, iPhone 3G, iPhone 3GS, Various Androids  
+------------------------------------------------------------------------
+*/
+@media only screen and (max-width: 480px) and (orientation:landscape), only screen and (max-device-width: 480px) and (orientation:landscape) {
+  
+  .container
+  {
+    width: 470px;
+  }
+  
+  header, footer, article, .site-header
+  {
+    width: 450px;
+  }
+
+}
+
+
+/*
+------------------------------------------------------------------------
+  This media query targets older iPhones in portrait and any other
+  device with a width less 480px that report orientation as "portrait."
+  - iPhone EDGE, iPhone 3G, iPhone 3GS, Various Androids
+------------------------------------------------------------------------
+*/
+@media only screen and (max-width: 480px) and (orientation:portrait), only screen and (max-device-width: 480px) and (orientation:portrait) {
+  
+  .container
+  {
+    width: 310px;
+  }
+  
+  header, footer, article, .site-header
+  {
+    width: 290px;
+  }
+
+}
