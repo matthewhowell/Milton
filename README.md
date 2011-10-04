@@ -15,3 +15,7 @@ Trim a few more pixels off for non-retina iPhones in landscape.
 
 480px (portrait)
 And finally handle non-retina iPhones in portrait.
+
+-----
+
+Find out more at: http://ligne.in/milton
